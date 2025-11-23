@@ -1,53 +1,62 @@
 # Current Time Script
 
-This script returns the current date and time in the format `date = "2024-07-13T14:27:45-06:00"`.
+A simple Bash script that outputs the current date and time in ISO 8601 format including timezone offset. This utility provides a consistent timestamp format useful for logging, scripting, or any automation requiring a standardized date-time string.
 
-## Prerequisites
+## Features
+
+- Outputs current date and time in the format: `YYYY-MM-DDTHH:MM:SS±HH:MM`
+- Uses standard Bash and the Unix `date` command
+- Lightweight and easy to integrate into other scripts or workflows
+
+## Tech Stack
+
+- Shell scripting (Bash)
+- Unix `date` command
+
+## Getting Started
+
+### Prerequisites
 
 - Bash shell
 - `date` command (available on most Unix-like systems)
 
-## Usage
+### Installation
 
-1. **Save the Script:**
+Clone or download the repository, then save the script file `current_time.sh` to your local machine.
 
-   Save the following script to a file, e.g., `current_time.sh`:
+### Usage
 
-   ```bash
-   #!/bin/bash
+Make the script executable:
 
-   # Get the current date and time in the desired format
-   current_time=$(date +"%Y-%m-%dT%H:%M:%S%z")
+```bash
+chmod +x current_time.sh
+```
 
-   # Format the time zone offset with a colon
-   formatted_time="${current_time:0:22}:${current_time:22:2}"
+Run the script:
 
-   # Print the result
-   echo "date = \"$formatted_time\""
-   ```
+```bash
+./current_time.sh
+```
 
-2. **Make the Script Executable:**
+Example output:
 
-   Run the following command to make the script executable:
+```
+date = "2024-07-13T14:27:45-06:00"
+```
 
-   ```bash
-   chmod +x current_time.sh
-   ```
+## Project Structure
 
-3. **Run the Script:**
+- `current-time.sh` - The main Bash script that outputs the current time.
+- `README.md` - This readme file.
+- `index.md` - Additional documentation with usage and metadata.
 
-   Execute the script using the following command:
+## Future Work / Roadmap
 
-   ```bash
-   ./current_time.sh
-   ```
+- Add support for different output formats (e.g., UTC, Unix timestamp).
+- Include options to customize output via command-line arguments.
+- Improve portability across different Unix-like systems and shells.
+- Add automated tests to verify output format consistency.
 
-   The output will be the current date and time in the specified format, e.g.:
+---
 
-   ```
-   date = "2024-07-13T14:27:45-06:00"
-   ```
-
-## License
-
-This script is provided as-is without any warranty. Feel free to modify and use it as needed.
+This project is provided as-is without warranty. You may modify and use it as needed.
