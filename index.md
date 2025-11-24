@@ -19,6 +19,12 @@ seoSecondaryKeywords:
   - bash date script
   - timezone offset formatting
 seoOptimized: true
+topicFamily: automation
+topicFamilyConfidence: 0.9
+topicFamilyNotes: >-
+  The post focuses on a Bash script automating generation of ISO 8601 compliant timestamps, which
+  aligns well with the 'automation' family describing scripts and projects for build, deployment,
+  and scripting workflows.
 ---
 
 # Current Time Script: Technical Overview
@@ -58,4 +64,5 @@ Potential enhancements include:
 - Implementing automated tests to ensure consistent output.
 
 This script serves as a minimal, practical utility for generating ISO 8601 compliant timestamps in Bash environments.
+
 
