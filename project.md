@@ -7,8 +7,8 @@ githubUrl: https://github.com/justin-napolitano/current-time-script
 generatedAt: '2025-11-24T21:34:25.075Z'
 source: github-auto
 summary: >-
-  A Bash script that outputs the current date and time in ISO 8601 format,
-  useful for logging and automation tasks.
+  A Bash script that outputs the current date and time in ISO 8601 format, useful for logging and
+  automation tasks.
 tags:
   - bash
   - unix
@@ -23,8 +23,8 @@ seoSecondaryKeywords:
   - scripting workflows
   - unix time format
 seoOptimized: true
-topicFamily: null
-topicFamilyConfidence: null
+topicFamily: automation
+topicFamilyConfidence: 0.9
 kind: project
 entryLayout: project
 showInProjects: true
@@ -93,4 +93,5 @@ date = "2024-07-13T14:27:45-06:00"
 ---
 
 This project is provided as-is without warranty. You may modify and use it as needed.
+
 
