@@ -1,20 +1,28 @@
 ---
 slug: github-current-time-script
 id: github-current-time-script
-title: Current Time Script
+title: Bash Script for Current Date and Time in ISO 8601 Format
 repo: justin-napolitano/current-time-script
 githubUrl: https://github.com/justin-napolitano/current-time-script
 generatedAt: '2025-11-24T21:34:25.075Z'
 source: github-auto
 summary: >-
-  A lightweight Bash script that outputs the current date and time in ISO 8601
-  format including the timezone offset. This utility provides a consistent and
-  standardized timestamp useful for logging, automation, and scripting
-  workflows.
-tags: []
-seoPrimaryKeyword: ''
-seoSecondaryKeywords: []
-seoOptimized: false
+  A simple Bash script that outputs the current date and time in ISO 8601
+  format, useful for logging and automation.
+tags:
+  - bash
+  - unix
+  - date command
+  - scripting
+  - automation
+seoPrimaryKeyword: bash current time script
+seoSecondaryKeywords:
+  - ISO 8601 timestamp
+  - bash scripting utility
+  - logging timestamp
+  - unix date command
+  - automation scripts
+seoOptimized: true
 topicFamily: null
 topicFamilyConfidence: null
 kind: project
